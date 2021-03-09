@@ -3,7 +3,7 @@
 @namespace      StyleBase
 @author         Valinwolf
 @description    `A theme for the Ambient Weather dashboard based on Southern Wolf's dark mode.`
-@version        1.0.3
+@version        1.0.4
 @license        CC0-1.0
 @preprocessor   uso
 ==/UserStyle== */
@@ -28,7 +28,7 @@ span,
 	background-color: #333!important;
 }
 
-.device-device-data-table table.main th {
+.device-summary-table table.details thead th.dateutc {
 	background-color: #1094be!important;
 }
 
