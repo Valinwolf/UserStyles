@@ -57,7 +57,7 @@ span,
 	background-color: #555;
 }
 
-.nav.active, .tabs .widgets.active {
+.nav.active, .tabs .active {
 	background-color: #09a8e6 !important;
 }
 
