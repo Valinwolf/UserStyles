@@ -3,7 +3,7 @@
 @namespace      StyleBase
 @author         Valinwolf
 @description    `A theme for the Ambient Weather dashboard based on Southern Wolf's dark mode.`
-@version        1.0.2
+@version        1.0.3
 @license        CC0-1.0
 @preprocessor   uso
 ==/UserStyle== */
@@ -19,7 +19,19 @@ span,
 .dropdown-menu {
 	background-color: #09a8e6!important;
 }
-    
+
+.table-striped > tbody > tr:nth-of-type(odd) {
+	background-color: #5d7d9e!important;
+}
+
+.table-striped > tbody > tr:nth-of-type(even) {
+	background-color: #333!important;
+}
+
+.device-device-data-table table.main th {
+	background-color: #1094be!important;
+}
+
 .navbar-brand:before {
     content: "Ambient Weather";
     color: white;
