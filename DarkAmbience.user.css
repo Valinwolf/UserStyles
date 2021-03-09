@@ -1,0 +1,100 @@
+/* ==UserStyle==
+@name           Dark Ambience
+@namespace      StyleBase
+@author         Valinwolf
+@description    `A theme for the Ambient Weather dashboard based on Southern Wolf's dark mode.`
+@version        20210308
+@license        CC0-1.0
+@preprocessor   uso
+==/UserStyle== */
+@-moz-document domain("dashboard.ambientweather.net"), domain("ambientweather.net") {
+span,
+.label,
+.editable-title,
+.uv-data,
+.level, .hour .title {
+	color: #eee !important;
+}
+    
+.navbar-brand:before {
+    content: "Ambient Weather";
+    color: white;
+    padding-top: 1.2em;
+    padding-left: 1em;
+}
+
+.app .navbar-brand {
+    background: none;
+    background-color: #222;
+}
+
+.wind-widget span {
+	color: #000 !Important;
+}
+
+.wind-widget .corner-wrap,
+.corner-wrap .fdp-val, .device-label {
+	color: #eee !Important;
+}
+
+.device-device-realtime-dashboard {
+	background-color: #333;
+}
+
+.component-dashboard-nav, .dashboard-header {
+	background-color: #222!important;
+}
+
+.top {
+	background-color: #555;
+}
+
+.data-table, .component-day-forecast, .hourly .hour {
+	background-color: #444!important;
+}
+
+.device-widget {
+	background-color: #555;
+}
+
+.nav.active, .tabs .widgets.active {
+	background-color: #09a8e6 !important;
+}
+
+.group,
+div.line {
+	background-color: #555 !important;
+}
+
+.block .line {
+	background-color: #fff !important;
+}
+
+.recharts-default-legend {
+	background-color: #666;
+}
+
+.recharts-tooltip-item span {
+	color: #000 !Important;
+}
+
+.page-container {
+	background-color: #333;
+}
+
+div.controls.clearfix {
+	background-color: #666;
+}
+
+rect {
+	fill: #444;
+}
+
+header, a.nav:hover {
+	background-color: #666!important;
+}
+
+tspan {
+	fill: #eee;
+}
+}
